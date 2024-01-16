@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chainlit-demo"
+version = "0.1.0"
+description = "A template Chainlit App with Docker Deployments"
+authors = ["Jimmy Liao"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.7.2"
+chainlit = "^1.0.101"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
